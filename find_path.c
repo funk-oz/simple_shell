@@ -109,8 +109,7 @@ char *save_path(char *tmp, char *path)
 			path[i] = '\0';
 		}
 		i = 0;
-		while (tmp[i])
-		{
-															path[i] = tmp[i];
-
-																			i++;
+		return (path);
+	}
+	return ("error");
+}
